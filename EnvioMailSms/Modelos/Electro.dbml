@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="EximagenElectro" Class="ElectroDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=10.130.37.40;Initial Catalog=EximagenElectro;Persist Security Info=True;User ID=sa" SettingsObjectName="EnvioMailSms.Properties.Settings" SettingsPropertyName="EximagenElectroConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TBL_NOTIFICACION_DATOS" Member="TBL_NOTIFICACION_DATOS">
+    <Type Name="TBL_NOTIFICACION_DATOS">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CardCode" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Mail" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="Cel" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Edited" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_NOTIFICACION_EXCLUIR" Member="TBL_NOTIFICACION_EXCLUIR">
+    <Type Name="TBL_NOTIFICACION_EXCLUIR">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CardCode" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Column Name="Mail" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="SMS" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_NOTIFICACION_FACT" Member="TBL_NOTIFICACION_FACT">
+    <Type Name="TBL_NOTIFICACION_FACT">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DocNum" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EnviadoMail" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EnviadoSMS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_XML_MANHATTAN" Member="TBL_XML_MANHATTAN">
+    <Type Name="TBL_XML_MANHATTAN">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UUID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FolioWeb" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IdTienda" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="XMLData" Type="System.Xml.Linq.XElement" DbType="Xml" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+</Database>

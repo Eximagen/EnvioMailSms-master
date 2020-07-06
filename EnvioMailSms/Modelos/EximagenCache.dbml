@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="EximagenCache" Class="EximagenCacheDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=10.130.37.40;Initial Catalog=EximagenCache;User ID=sa" SettingsObjectName="EnvioMailSms.Properties.Settings" SettingsPropertyName="EximagenCacheConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ValidaTiendaMensaje" Member="ValidaTiendaMensaje">
+    <Type Name="ValidaTiendaMensaje">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="docnum" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="envio" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CambioVista" Member="CambioVista">
+    <Type Name="CambioVista">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Cliente" Type="System.String" DbType="NVarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="Dominio" Type="System.String" DbType="NVarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="SubDominio" Type="System.String" DbType="NVarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="Moneda" Type="System.String" DbType="NChar(3)" CanBeNull="true" />
+      <Column Name="CardCode" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="Language" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SistemaMetrico" Type="System.String" DbType="NVarChar(3)" CanBeNull="true" />
+      <Column Name="ListaEspecial" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VerRegistro" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ValidaOpenPay" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ValidaMargenDecorado" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RolTienda" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PermisosTienda" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="CambioVista_EstilosPorVista" Member="EstilosPorVista" ThisKey="ID" OtherKey="IDCliente" Type="EstilosPorVista" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EstilosPorVista" Member="EstilosPorVista">
+    <Type Name="EstilosPorVista">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IDCliente" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Campo" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Valor" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Association Name="CambioVista_EstilosPorVista" Member="CambioVista" ThisKey="IDCliente" OtherKey="ID" Type="CambioVista" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

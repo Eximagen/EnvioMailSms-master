@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="OE_SEGURIDAD" Class="SeguridadDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=10.130.37.40;Initial Catalog=OE_SEGURIDAD;User ID=qacg" SettingsObjectName="EnvioMailSms.Properties.Settings" SettingsPropertyName="OE_SEGURIDADConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.QACG_CLIENTE_EXTERNO" Member="QACG_CLIENTE_EXTERNO">
+    <Type Name="QACG_CLIENTE_EXTERNO">
+      <Column Name="UID_CLIENTE_EXTERNO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UID_CLIENTE" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="INO_CLIENTE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="SLOGO" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="SNOMBRE" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="SPUESTO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SEMAIL" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="SPASSWORD" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="STELEFONO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="UID_UserInsert" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="DT_DateInsert" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UID_UserUpdate" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="DT_DateUpdate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="B_Active" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="BloqEmailFactura" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="BloqEmailOD" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="BloqEmailEmbarque" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="BloqEmailProduccion" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Member="IdTienda" Type="System.Int32" CanBeNull="false" />
+      <Column Member="IsAdmin" Type="System.Boolean" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

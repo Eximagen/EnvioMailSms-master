@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SAP">
+  <DataContextMoniker Name="/SAPDataContext" />
+  <nestedChildShapes>
+    <classShape Id="41b30cf1-e115-42ab-9903-33db5189b6bf" isExpanded="false" absoluteBounds="2, 2, 2, 0.45">
+      <DataClassMoniker Name="/SAPDataContext/Notificaciones_Fact" />
+      <nestedChildShapes>
+        <elementListCompartment Id="64c3593d-e835-4ae3-93aa-c2f0eb118b93" absoluteBounds="2.0149999999999997, 2.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2b15f16f-d611-4c35-8867-b8ee68f60873" isExpanded="false" absoluteBounds="4.25, 2.75, 2, 0.45">
+      <DataClassMoniker Name="/SAPDataContext/OSLP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cf8d5b17-7564-47e0-85e4-59d5b18937f1" absoluteBounds="4.265, 3.21, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="50c2d9e5-de76-490e-b30f-79beccd3e6e6" isExpanded="false" absoluteBounds="2, 2.75, 2, 0.45">
+      <DataClassMoniker Name="/SAPDataContext/Clientes_Vendedor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="25a14114-b6ca-4e07-8e6e-14f8f9064567" absoluteBounds="2.015, 3.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a10752b5-c946-4d5b-8901-73dde4a6eb2d" isExpanded="false" absoluteBounds="1.875, 0.625, 2, 0.45">
+      <DataClassMoniker Name="/SAPDataContext/OINV" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a4664cc4-1d19-42fc-a342-4a7791ad3df1" absoluteBounds="1.8900000000000001, 1.085, 1.9700000000000002, 97.1693115234375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ce3c3268-b927-4a02-b0d9-4babe3625f23" isExpanded="false" absoluteBounds="4.125, 1.5, 2, 0.45">
+      <DataClassMoniker Name="/SAPDataContext/OCRD" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9f6091bc-18c7-4792-af26-e9be89739e88" absoluteBounds="4.14, 1.96, 1.9700000000000002, 81.0159912109375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="334b99d6-8166-4eb4-84f3-be92aa4cbd4e" isExpanded="false" absoluteBounds="5, 0.875, 2, 0.45">
+      <DataClassMoniker Name="/SAPDataContext/CRD1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="825010f5-68ff-452d-abbd-b3c3b422673f" absoluteBounds="5.015, 1.335, 1.9700000000000002, 8.5183512369791661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

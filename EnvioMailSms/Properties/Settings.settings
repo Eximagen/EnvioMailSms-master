@@ -1,0 +1,70 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="EnvioMailSms.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Eximagen_NuevaBConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.130.37.40;Initial Catalog=Eximagen_NuevaB;Persist Security Info=True;User ID=sa;Password="2NC]&amp;gt;=f.N^"&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.130.37.40;Initial Catalog=Eximagen_NuevaB;Persist Security Info=True;User ID=sa;Password="2NC]&gt;=f.N^"</Value>
+    </Setting>
+    <Setting Name="EximagenElectroConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.130.37.40;Initial Catalog=EximagenElectro;Persist Security Info=True;User ID=sa;Password="2NC]&amp;gt;=f.N^"&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.130.37.40;Initial Catalog=EximagenElectro;Persist Security Info=True;User ID=sa;Password="2NC]&gt;=f.N^"</Value>
+    </Setting>
+    <Setting Name="OE_SEGURIDADConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.130.37.40;Initial Catalog=OE_SEGURIDAD;Persist Security Info=True;User ID=sa;Password="2NC]&amp;gt;=f.N^"&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.130.37.40;Initial Catalog=OE_SEGURIDAD;Persist Security Info=True;User ID=sa;Password="2NC]&gt;=f.N^"</Value>
+    </Setting>
+    <Setting Name="Eximagen_NuevaBConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.130.37.40;Initial Catalog=Eximagen_NuevaB;User ID=qacg;Password=Ex1m4g3n2016&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.130.37.40;Initial Catalog=Eximagen_NuevaB;User ID=qacg;Password=Ex1m4g3n2016</Value>
+    </Setting>
+    <Setting Name="OE_SEGURIDADConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.130.37.40;Initial Catalog=OE_SEGURIDAD;User ID=qacg;Password=Ex1m4g3n2016&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.130.37.40;Initial Catalog=OE_SEGURIDAD;User ID=qacg;Password=Ex1m4g3n2016</Value>
+    </Setting>
+    <Setting Name="Eximagen_NuevaBConnectionString2" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.130.37.40;Initial Catalog=Eximagen_NuevaB;User ID=sa;Password="2NC]&amp;gt;=f.N^"&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.130.37.40;Initial Catalog=Eximagen_NuevaB;User ID=sa;Password="2NC]&gt;=f.N^"</Value>
+    </Setting>
+    <Setting Name="EximagenCacheConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.130.37.40;Initial Catalog=EximagenCache;User ID=sa;Password="2NC]&amp;gt;=f.N^"&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.130.37.40;Initial Catalog=EximagenCache;User ID=sa;Password="2NC]&gt;=f.N^"</Value>
+    </Setting>
+    <Setting Name="Eximagen_NuevaBConnectionString3" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.130.37.40;Initial Catalog=Eximagen_NuevaB;Persist Security Info=True;User ID=sapdb;Password=Pa$$w0rd01&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.130.37.40;Initial Catalog=Eximagen_NuevaB;Persist Security Info=True;User ID=sapdb;Password=Pa$$w0rd01</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
